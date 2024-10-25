@@ -18,3 +18,11 @@ hr {
 .landing-card-height {
     height: fit-content;
 }
+
+.carousel-image-height {
+    height: 28.75rem;
+}
+
+.card-body-height {
+    height: 20rem;
+}

@@ -28,6 +28,7 @@
 
 ## Citations and References
 ***Content Taken From:***
+
 [The 10 Best Sci-Fi Movies of the 2010s, Ranked](https://collider.com/sci-fi-movies-2010s-ranked/)
 - Page used for inspiration.
 

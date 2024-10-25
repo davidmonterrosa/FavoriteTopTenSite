@@ -20,7 +20,10 @@ hr {
 }
 
 .carousel-image-height {
+    background-color: black;
+    max-width: fit-content;
     height: 28.75rem;
+    align-self: center;
 }
 
 .card-body-height {

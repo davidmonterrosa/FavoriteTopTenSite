@@ -13,11 +13,11 @@
 <body>
 
   <!-- Nav Bar -->
-  <div class="container">
+  <div class="container p-0">
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
-          <div class="container-fluid">
+          <div class="container-fluid p-0"> <!--Removed Padding-->
             <a class="navbar-brand" href="../index.html">DM.TV</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,10 @@
                     Top Tens
                   </a>
                   <ul class="dropdown-menu bg-secondary">
-                    <li><a class="dropdown-item" href="../pages/games.html">Top 10 Video Games of All Time</a></li>
-                    <li><a class="dropdown-item" href="../pages/movies.html">Top 10 Sci-fi Movies of the 2010s</a></li>
+                    <li><a class="dropdown-item" href="../pages/games.html">Top 10 Video Games of All
+                        Time</a></li>
+                    <li><a class="dropdown-item" href="../pages/movies.html">Top 10 Sci-fi Movies of
+                        the 2010s</a></li>
                   </ul>
                 </li>
               </ul>
@@ -47,13 +49,14 @@
   </div>
 
   <!-- Page Title -->
-  <div class="container-fluid mt-5 p-0">
+  <div class="container mt-5 p-0">
     <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-        <h1 class="text-white text-center mt-5 mb-2"> Top 10 Games of All time</h1>
+      <div class="col-md-4 p-0"></div> <!--Removed padding-->
+      <div class="col-md-4 p-0">
+        <h1 class="text-white text-center mt-5 mb-2"> Top 10 Games of All
+          time</h1>
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4 p-0"></div>
     </div>
   </div>
 
@@ -71,8 +74,8 @@
           </div>
           <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/ot7uXNQskhs"
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center"> <!--480-res so 854*480-->
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/ot7uXNQskhs"
                 title="Stardew Valley Trailer" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -88,12 +91,18 @@
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>Stardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm
-                      plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your
-                      new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?
-                      It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but
-                      disappeared. The community center, once the town’s most vibrant hub of activity, now lies in
-                      shambles. But the valley seems full of opportunity. With a little dedication, you might just be
+                    <p>Stardew Valley is an open-ended country-life RPG!
+                      You’ve inherited your grandfather’s old farm
+                      plot in Stardew Valley. Armed with hand-me-down tools
+                      and a few coins, you set out to begin your
+                      new life. Can you learn to live off the land and turn
+                      these overgrown fields into a thriving home?
+                      It won’t be easy. Ever since Joja Corporation came to
+                      town, the old ways of life have all but
+                      disappeared. The community center, once the town’s most
+                      vibrant hub of activity, now lies in
+                      shambles. But the valley seems full of opportunity. With
+                      a little dedication, you might just be
                       the one to restore Stardew Valley to greatness!
                     </p>
                   </div>
@@ -122,11 +131,11 @@
             </div>
           </div>
           <div class="modal-body">
-            <div class="container">
+            <div class="container p-0"> <!--remove padding-->
               <div class="row">
-                <div class="col p-0 d-flex justify-content-center border border-light">
-                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
-                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                <div class="col p-0 d-flex justify-content-center"> <!--800*450 keep 16:9 ratio-->
+                  <iframe width="800" height="450" src="https://www.youtube.com/embed/ddTHeAQhlws"
+                    title="Stardew Valley Review (2024)" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -136,6 +145,13 @@
         </div>
       </div>
     </div>
+
+    <!-- Potential script to turn off video -->
+    <!-- <script>
+      $("#reviewStardew").on('hidden.bs.modal', function (e) {
+          $("#reviewStardew iframe").attr("src", $("#reviewStardew iframe").attr("src"));
+      });
+    </script> -->
 
     <hr class="border-5 mt-3 mb-3">
 
@@ -151,7 +167,7 @@
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center"> <!-- removed Border & added margin -->
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/SqjY_-beWi0"
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/SqjY_-beWi0"
                 title="Undertale - Nintendo Switch Release Trailer" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -167,14 +183,30 @@
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>... is an RPG for PC, Mac, Linux, PS4, PSVita, Nintendo Switch and Xbox One. In this RPG, you
-                      don't have to kill anyone. Each enemy can be "defeated" nonviolently. Dance with a slime. Pet a
-                      dog. Whisper your favorite secret to a knight. Or, ignore this choice and rain destruction upon
-                      your foes. But your journey will take determination. Each adversary has unique bullet patterns
-                      that you must dodge as well. Emphasis on humor, character dialogue, and player choice. Average
-                      playtime: 6 hours. Don't know why... But a lot of people love this game. Who knows. You may love
-                      it too. So, did you learn what the game's about? Hmmm. Well, it's too late. There's no "BACK"
-                      button on this page. You're going to be trapped here... For ALL ETERNITY!!! Urrahhhh ha ha ha!!
+                    <p>... is an RPG for PC, Mac, Linux, PS4, PSVita, Nintendo
+                      Switch and Xbox One. In this RPG,
+                      you
+                      don't have to kill anyone. Each enemy can be "defeated"
+                      nonviolently. Dance with a slime.
+                      Pet a
+                      dog. Whisper your favorite secret to a knight. Or,
+                      ignore this choice and rain destruction
+                      upon
+                      your foes. But your journey will take determination.
+                      Each adversary has unique bullet
+                      patterns
+                      that you must dodge as well. Emphasis on humor,
+                      character dialogue, and player choice.
+                      Average
+                      playtime: 6 hours. Don't know why... But a lot of people
+                      love this game. Who knows. You may
+                      love
+                      it too. So, did you learn what the game's about? Hmmm.
+                      Well, it's too late. There's no
+                      "BACK"
+                      button on this page. You're going to be trapped here...
+                      For ALL ETERNITY!!! Urrahhhh ha ha
+                      ha!!
                     </p>
                   </div>
                 </div>
@@ -205,8 +237,8 @@
             <div class="container">
               <div class="row">
                 <div class="col p-0 d-flex justify-content-center border border-light">
-                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
-                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                  <iframe width="854" height="480" src="https://www.youtube.com/embed/ddTHeAQhlws"
+                    title="Stardew Valley Review (2024)" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -217,7 +249,7 @@
       </div>
     </div>
 
-    <hr class="border-5 mt-3 mb-3">  <!-- Added Margin -->
+    <hr class="border-5 mt-3 mb-3"> <!-- Added Margin -->
 
     <!-- Number 8 -->
     <div class="row">
@@ -225,13 +257,14 @@
         <div class="container">
           <div class="row">
             <div class="col mt-2">
-              <h3 class="text-white">8. The Elder Scrolls V: Skyrim (2011)</h3>
+              <h3 class="text-white">8. The Elder Scrolls V: Skyrim
+                (2011)</h3>
             </div>
           </div>
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/JSRtYpNRoN0"
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/JSRtYpNRoN0"
                 title="The Elder Scrolls V: Skyrim - Official Trailer" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -240,17 +273,23 @@
           </div>
           <div class="row">
             <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
-              <img src="../assets/Skyrim.jpg" class="img-fluid image-thumbnail"
-                alt="boxart for Skyrim">
+              <img src="../assets/Skyrim.jpg" class="img-fluid image-thumbnail" alt="boxart for Skyrim">
             </div>
             <div class="col-md-8 mb-4 border border-light">
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>The High King of Skyrim has been killed, and the threat of Civil War looms over the land of
-                      Skyrim; One side wishes to secede from the weakened Third Empire, while the other wishes to remain
-                      a part of it. To make matters worse, this schism is the final event in a prophecy foretold by
-                      the Elder Scrolls that will lead to the return of the dragons under Alduin, the Nordic god of
+                    <p>The High King of Skyrim has been killed, and the threat
+                      of Civil War looms over the land of
+                      Skyrim; One side wishes to secede from the weakened
+                      Third Empire, while the other wishes to
+                      remain
+                      a part of it. To make matters worse, this schism is the
+                      final event in a prophecy foretold
+                      by
+                      the Elder Scrolls that will lead to the return of the
+                      dragons under Alduin,
+                      the Nordic god of
                       destruction.
                     </p>
                   </div>
@@ -282,7 +321,7 @@
             <div class="container">
               <div class="row">
                 <div class="col p-0 d-flex justify-content-center border border-light">
-                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                  <iframe width="800" height="450" src="https://www.youtube.com/embed/4fk9yPZX_NM"
                     title="Mad Max: Fury Road - Movie Review" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -308,7 +347,10 @@
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/M80K51DosFo" title="Grand Theft Auto IV Trailer 1 &quot;Things Will Be Different&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/M80K51DosFo"
+                title="Grand Theft Auto IV Trailer 1 &quot;Things Will Be Different&quot;" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="col-md-2"></div>
           </div>
@@ -321,7 +363,22 @@
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>What does the American Dream mean today? For Niko Bellic, fresh off the boat from Europe, it is the hope he can escape his past. For his cousin, Roman, it is the vision that together they can find fortune in Liberty City, gateway to the land of opportunity.<br>As they slip into debt and are dragged into a criminal underworld by a series of shysters, thieves, and sociopaths, they discover that the reality is very different from the dream in a city that worships money and status, and is heaven for those who have them and a living nightmare for those who don't.
+                    <p>What does the American Dream mean today? For Niko
+                      Bellic, fresh off the boat from Europe,
+                      it is
+                      the hope he can escape his past. For his cousin, Roman,
+                      it is the vision that together they
+                      can
+                      find fortune in Liberty City, gateway to the land of
+                      opportunity.<br>As they slip into debt
+                      and
+                      are dragged into a criminal underworld by a series of
+                      shysters, thieves, and sociopaths,
+                      they
+                      discover that the reality is very different from the
+                      dream in a city that worships money and
+                      status, and is heaven for those who have them and a
+                      living nightmare for those who don't.
                     </p>
                   </div>
                 </div>
@@ -378,20 +435,35 @@
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/OcP0WdH7rTs" title="Baldur&#39;s Gate 3 - Official Announcement Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/OcP0WdH7rTs"
+                title="Baldur&#39;s Gate 3 - Official Announcement Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div class="row">
             <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
               <img src="../assets/BG3.jpeg" class="img-fluid image-thumbnail"
-                alt="background cover for Grand Theft Auto 4">
+                alt="background cover for Baldur's Gate 3">
             </div>
             <div class="col-md-8 mb-4 border border-light">
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. <br>Mysterious abilities are awakening inside you, drawn from a mind flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil. <br>From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons & Dragons.
+                    <p>Gather your party and return to the Forgotten Realms in
+                      a tale of fellowship and betrayal,
+                      sacrifice and survival, and the lure of absolute power.
+                      <br>Mysterious abilities are
+                      awakening
+                      inside you, drawn from a mind flayer parasite planted in
+                      your brain. Resist, and turn
+                      darkness
+                      against itself. Or embrace corruption, and become
+                      ultimate evil. <br>From the creators of
+                      Divinity: Original Sin 2 comes a next-generation RPG,
+                      set in the world of Dungeons &
+                      Dragons.
                     </p>
                   </div>
                 </div>
@@ -442,26 +514,40 @@
         <div class="container">
           <div class="row">
             <div class="col mt-2">
-              <h3 class="text-white">5. The Legend of Zelda: Majora’s Mask (2000)</h3>
+              <h3 class="text-white">5. The Legend of Zelda: Majora’s Mask
+                (2000)</h3>
             </div>
           </div>
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/fTv_p5hEu0A" title="The Legend of Zelda: Majora’s Mask Trailer - Nintendo 64 - Nintendo Switch Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/fTv_p5hEu0A"
+                title="The Legend of Zelda: Majora’s Mask Trailer - Nintendo 64 - Nintendo Switch Online"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div class="row">
             <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
-              <img src="../assets/Majora's Mask.png" class="img-fluid image-thumbnail"
-                alt="background cover for Grand Theft Auto 4">
+              <img src="../assets/Majora's Mask.png" class="img-fluid image-thumbnail" alt="box art for Majora's Mask">
             </div>
             <div class="col-md-8 mb-4 border border-light">
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>Rather than the setting being Hyrule as it is in most Zelda games, Link finds himself in the land of Termina, a parallel world to Hyrule. A mysterious mask known as Majora's Mask has been stolen by a mischievous imp known as the Skull Kid, and is being used to summon the Moon to destroy the entire land of Termina. Link must stop the destruction within three days. 
+                    <p>Rather than the setting being Hyrule as it is in most
+                      Zelda games, Link finds himself in
+                      the land
+                      of Termina, a parallel world to Hyrule. A mysterious
+                      mask known as Majora's Mask has been
+                      stolen
+                      by a mischievous imp known as the Skull Kid, and is
+                      being used to summon the Moon to destroy
+                      the
+                      entire land of Termina. Link must stop the destruction
+                      within three days.
                     </p>
                   </div>
                 </div>
@@ -506,39 +592,64 @@
 
     <hr class="border-5 mt-3 mb-3">
 
-    <!-- Number 5 -->
+    <!-- Number 4 -->
     <div class="row">
       <div class="col">
         <div class="container">
           <div class="row">
             <div class="col mt-2">
-              <h3 class="text-white">5. The Legend of Zelda: Majora’s Mask (2000)</h3>
+              <h3 class="text-white">4. Yakuza 0 (2015)</h3>
             </div>
           </div>
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
-              <iframe width="805" height="380" src="https://www.youtube.com/embed/fTv_p5hEu0A" title="The Legend of Zelda: Majora’s Mask Trailer - Nintendo 64 - Nintendo Switch Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/7_sDlcmriQY"
+                title="PlayStation Experience 2015: Yakuza 0 - Announcement Teaser Trailer | PS4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="col-md-2"></div>
           </div>
           <div class="row">
             <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
-              <img src="../assets/Majora's Mask.png" class="img-fluid image-thumbnail"
-                alt="background cover for Grand Theft Auto 4">
+              <img src="../assets/Yakuza 0.jpg" class="img-fluid image-thumbnail" alt="Cover Art for Yakuza 0">
             </div>
             <div class="col-md-8 mb-4 border border-light">
               <div class="container">
                 <div class="row">
                   <div class="col text-white mt-3">
-                    <p>Rather than the setting being Hyrule as it is in most Zelda games, Link finds himself in the land of Termina, a parallel world to Hyrule. A mysterious mask known as Majora's Mask has been stolen by a mischievous imp known as the Skull Kid, and is being used to summon the Moon to destroy the entire land of Termina. Link must stop the destruction within three days. 
+                    <p>The glitz, glamour, and unbridled decadence of the 80s
+                      are back in Yakuza 0. Fight like
+                      hell
+                      through Tokyo and Osaka with protagonist Kazuma Kiryu
+                      and series regular Goro Majima. Play
+                      as
+                      Kazuma Kiryu and discover how he finds himself in a
+                      world of trouble when a simple debt
+                      collection
+                      goes wrong and his mark winds up murdered. Then, step
+                      into the silver-toed shoes of Goro
+                      Majima
+                      and explore his “normal” life as the proprietor of a
+                      cabaret club. Switch between three
+                      different
+                      fighting styles instantaneously and beat up all manner
+                      of goons, thugs, hoodlums, and
+                      lowlifes.
+                      Fighting is not the only way to kill time in 1988’s
+                      Japan: from discos and hostess clubs to
+                      classic SEGA arcades, there are tons of distractions to
+                      pursue in the richly detailed,
+                      neon-lit
+                      world.
                     </p>
                   </div>
                 </div>
                 <div class="row d-flex justify-content-start">
                   <div class="col">
                     <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
-                      data-bs-target="#reviewZelda">Review</button>
+                      data-bs-target="#reviewYakuza">Review</button>
                   </div>
                 </div>
               </div>
@@ -548,8 +659,8 @@
       </div>
     </div>
 
-    <!-- Modal Box Overlay 5 -->
-    <div class="modal fade" id="reviewZelda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal Box Overlay 4 -->
+    <div class="modal fade" id="reviewYakuza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content bg-dark">
           <div class="modal-header">
@@ -576,7 +687,268 @@
 
     <hr class="border-5 mt-3 mb-3">
 
+    <!-- Number 3 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">3. Minecraft (2011)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/MmB9b5njVbA"
+                title="Official Minecraft Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Minecraft.jpg" class="img-fluid image-thumbnail" alt="cover art for minecarft">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Build anything you can imagine, uncover eerie
+                      mysteries, and survive the night in the
+                      ultimate
+                      sandbox game. In Minecraft, every playthrough is
+                      different, and unforgettable adventures
+                      await
+                      behind every corner. Explore and craft your way through
+                      an infinite world that’s yours to
+                      shape,
+                      one block at a time. The typical Minecraft journey
+                      starts with punching a tree to gather
+                      wood. The
+                      rest is up to you, whether you mine for precious ores or
+                      seek out rare materials. Just make
+                      sure
+                      to stock up on food! When the sun goes down, hostile
+                      mobs abound. Will you face them or
+                      sleep
+                      through the night? And remember: it’s always dark
+                      underground... Craft tools, build a humble
+                      shelter, or engineer your base with redstone. Can you
+                      build a base in the Nether? Only one
+                      way to
+                      find out.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewZelda">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Modal Box Overlay 3 -->
+    <div class="modal fade" id="reviewMinecraft" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 2 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">2. Halo: Combat Evolved (2001)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/uW_GT2OP3X0"
+                title="Halo: Anniversary Campaign Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Halo CE.jpg" class="img-fluid image-thumbnail" alt="background cover for Halo">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Halo: Combat Evolved is a 2001 first-person shooter
+                      science-fiction video game developed
+                      by Bungie Studios and published by Microsoft Game
+                      Studios. It is the first game in
+                      the Halo series. It focuses on John-117 and the crew of
+                      the UNSC Pillar of Autumn who,
+                      fleeing
+                      from the Fall of Reach, stumble on the Forerunner Halo
+                      Installation 04, only to be forced
+                      into
+                      a desperate battle against the Covenant.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewZelda">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 2 -->
+    <div class="modal fade" id="reviewHalo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 1 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">1. World of Warcraft (2004)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/vlVSJ0AvZe0"
+                title="World of Warcraft Cinematic Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/WoW.jpg" class="img-fluid image-thumbnail"
+                alt="background cover for World of Warcraft: Battle for Azeroth">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>World of Warcraft is a Massively-Multiplayer Online
+                      Role Player Game where players battle
+                      against
+                      the other forces on Azeroth. Join the faction of Horde
+                      or Alliance as a recruit and explore
+                      the
+                      world of Azeroth. Level up and gain strength and new
+                      abilities. Customize your character
+                      with
+                      equipment and the talent system. Arm up with other
+                      players online to defeat the opposing
+                      faction
+                      or work together to take down the evil threats that seek
+                      to destroy Azeroth.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewZelda">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 1 -->
+    <div class="modal fade" id="reviewWow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

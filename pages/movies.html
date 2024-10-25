@@ -1,14 +1,841 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top Ten Sci-fi Movies</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/styles.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Ten Sci-fi Movies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">DM.TV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Top Tens
+                  </a>
+                  <ul class="dropdown-menu bg-secondary">
+                    <li><a class="dropdown-item" href="../pages/games.html">Top 10 Video Games of All Time</a></li>
+                    <li><a class="dropdown-item" href="../pages/movies.html">Top 10 Sci-fi Movies of the 2010s</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <div class="container-fluid mt-5 p-0">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h1 class="text-white text-center mt-5 mb-2"> Top 10 Sci-Fi Movies of the 2010’s</h1>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+
+  <!-- Desktop Content Body -->
+  <div class="container">
+
+    <!-- Number 10 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5">
+    <!-- Number 9 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 8 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 7 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 6 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 5 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 4 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 3 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 2 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Number 1 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Mad Max: Fury Road (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 d-flex justify-content-center border border-light">
+              <iframe width="853" height="380" src="https://www.youtube.com/embed/hEJnMQG9ev8"
+                title="Mad Max: Fury Road - Official Main Trailer [HD]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center border border-light">
+              <img src="../assets/MadMaxFuryRoad.jpg" class="image-thumbnail" alt="">
+            </div>
+            <div class="col-md-8 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white">
+                    <p>Directed By:Christopher Nolan</p>
+                    <p>Starring: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <br>
+                    <p>Synopsis:</p>
+                    <p>
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is
+                      tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

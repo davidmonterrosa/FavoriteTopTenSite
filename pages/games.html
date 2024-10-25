@@ -1,14 +1,586 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top Ten Games</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/styles.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Ten Games</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">DM.TV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Top Tens
+                  </a>
+                  <ul class="dropdown-menu bg-secondary">
+                    <li><a class="dropdown-item" href="../pages/games.html">Top 10 Video Games of All Time</a></li>
+                    <li><a class="dropdown-item" href="../pages/movies.html">Top 10 Sci-fi Movies of the 2010s</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <div class="container-fluid mt-5 p-0">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h1 class="text-white text-center mt-5 mb-2"> Top 10 Games of All time</h1>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+
+  <!-- Desktop Content Body -->
+  <div class="container-fluid"> <!-- fluid? -->
+
+    <!-- Number 10 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="text-white">10. Stardew Valley (2016)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/ot7uXNQskhs"
+                title="Stardew Valley Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Stardew Valley.jpg" class="img-fluid image-thumbnail"
+                alt="picture of the strating page for Stardew Valley">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Stardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm
+                      plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your
+                      new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?
+                      It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but
+                      disappeared. The community center, once the town’s most vibrant hub of activity, now lies in
+                      shambles. But the valley seems full of opportunity. With a little dedication, you might just be
+                      the one to restore Stardew Valley to greatness!
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewStardew">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 10 -->
+    <div class="modal fade" id="reviewStardew" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 9 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2"> <!-- Added Margin -->
+              <h3 class="text-white">9. Undertale (2015)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center"> <!-- removed Border & added margin -->
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/SqjY_-beWi0"
+                title="Undertale - Nintendo Switch Release Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light"> <!-- Added Margin -->
+              <img src="../assets/Undertale.png" class="img-fluid image-thumbnail"
+                alt="picture of the strating page for Undertale">
+            </div>
+            <div class="col-md-8 mb-4 border border-light"> <!-- Added Margin -->
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>... is an RPG for PC, Mac, Linux, PS4, PSVita, Nintendo Switch and Xbox One. In this RPG, you
+                      don't have to kill anyone. Each enemy can be "defeated" nonviolently. Dance with a slime. Pet a
+                      dog. Whisper your favorite secret to a knight. Or, ignore this choice and rain destruction upon
+                      your foes. But your journey will take determination. Each adversary has unique bullet patterns
+                      that you must dodge as well. Emphasis on humor, character dialogue, and player choice. Average
+                      playtime: 6 hours. Don't know why... But a lot of people love this game. Who knows. You may love
+                      it too. So, did you learn what the game's about? Hmmm. Well, it's too late. There's no "BACK"
+                      button on this page. You're going to be trapped here... For ALL ETERNITY!!! Urrahhhh ha ha ha!!
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewUndetale">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 9 -->
+    <div class="modal fade" id="reviewUndetale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">  <!-- Added Margin -->
+
+    <!-- Number 8 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">8. The Elder Scrolls V: Skyrim (2011)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/JSRtYpNRoN0"
+                title="The Elder Scrolls V: Skyrim - Official Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Skyrim.jpg" class="img-fluid image-thumbnail"
+                alt="boxart for Skyrim">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>The High King of Skyrim has been killed, and the threat of Civil War looms over the land of
+                      Skyrim; One side wishes to secede from the weakened Third Empire, while the other wishes to remain
+                      a part of it. To make matters worse, this schism is the final event in a prophecy foretold by
+                      the Elder Scrolls that will lead to the return of the dragons under Alduin, the Nordic god of
+                      destruction.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewSkyrim">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 8 -->
+    <div class="modal fade" id="reviewSkyrim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 7 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">7. Grand Theft Auto IV (2008)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/M80K51DosFo" title="Grand Theft Auto IV Trailer 1 &quot;Things Will Be Different&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/GTA IV.jpg" class="img-fluid image-thumbnail"
+                alt="background cover for Grand Theft Auto 4">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>What does the American Dream mean today? For Niko Bellic, fresh off the boat from Europe, it is the hope he can escape his past. For his cousin, Roman, it is the vision that together they can find fortune in Liberty City, gateway to the land of opportunity.<br>As they slip into debt and are dragged into a criminal underworld by a series of shysters, thieves, and sociopaths, they discover that the reality is very different from the dream in a city that worships money and status, and is heaven for those who have them and a living nightmare for those who don't.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewGTA">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 7 -->
+    <div class="modal fade" id="reviewGTA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 6 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">6. Baldur’s Gate 3 (2023)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/OcP0WdH7rTs" title="Baldur&#39;s Gate 3 - Official Announcement Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/BG3.jpeg" class="img-fluid image-thumbnail"
+                alt="background cover for Grand Theft Auto 4">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. <br>Mysterious abilities are awakening inside you, drawn from a mind flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil. <br>From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons & Dragons.
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewBG3">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 6 -->
+    <div class="modal fade" id="reviewBG3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 5 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">5. The Legend of Zelda: Majora’s Mask (2000)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/fTv_p5hEu0A" title="The Legend of Zelda: Majora’s Mask Trailer - Nintendo 64 - Nintendo Switch Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Majora's Mask.png" class="img-fluid image-thumbnail"
+                alt="background cover for Grand Theft Auto 4">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Rather than the setting being Hyrule as it is in most Zelda games, Link finds himself in the land of Termina, a parallel world to Hyrule. A mysterious mask known as Majora's Mask has been stolen by a mischievous imp known as the Skull Kid, and is being used to summon the Moon to destroy the entire land of Termina. Link must stop the destruction within three days. 
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewZelda">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 5 -->
+    <div class="modal fade" id="reviewZelda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+    <!-- Number 5 -->
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2">
+              <h3 class="text-white">5. The Legend of Zelda: Majora’s Mask (2000)</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-0 mt-5 mb-5 d-flex justify-content-center">
+              <iframe width="805" height="380" src="https://www.youtube.com/embed/fTv_p5hEu0A" title="The Legend of Zelda: Majora’s Mask Trailer - Nintendo 64 - Nintendo Switch Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center border border-light">
+              <img src="../assets/Majora's Mask.png" class="img-fluid image-thumbnail"
+                alt="background cover for Grand Theft Auto 4">
+            </div>
+            <div class="col-md-8 mb-4 border border-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col text-white mt-3">
+                    <p>Rather than the setting being Hyrule as it is in most Zelda games, Link finds himself in the land of Termina, a parallel world to Hyrule. A mysterious mask known as Majora's Mask has been stolen by a mischievous imp known as the Skull Kid, and is being used to summon the Moon to destroy the entire land of Termina. Link must stop the destruction within three days. 
+                    </p>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                      data-bs-target="#reviewZelda">Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Box Overlay 5 -->
+    <div class="modal fade" id="reviewZelda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Review</h1>
+            <div class="container d-flex justify-content-end" data-bs-theme="dark">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col p-0 d-flex justify-content-center border border-light">
+                  <iframe width="805" height="453" src="https://www.youtube.com/embed/4fk9yPZX_NM"
+                    title="Mad Max: Fury Road - Movie Review" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-5 mt-3 mb-3">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>

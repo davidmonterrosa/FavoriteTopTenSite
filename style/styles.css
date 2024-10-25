@@ -16,7 +16,7 @@ hr {
 }
 
 .landing-card-height {
-    height: fit-content;
+    height: 34.4rem;
 }
 
 .carousel-image-height {
@@ -25,4 +25,9 @@ hr {
 
 .card-body-height {
     height: 20rem;
+}
+
+.bg-dark-transparent {
+    width: fit-content;
+    background-color: rgb(0, 0, 0, 0.7);
 }
